@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3EFEF"
+    android:backgroundTint="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+
+    <TextView
+        android:id="@+id/respuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#F4F4F4"
+        android:backgroundTint="#000000"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/numero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#000000"
+        android:backgroundTintMode="add"
+        android:ems="10"
+        android:foregroundTint="#FF0000"
+        android:foregroundTintMode="add"
+        android:hint="escribir número"
+        android:inputType="number"
+        android:shadowColor="#000000" />
+
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#000000"
+        android:backgroundTintMode="add"
+        android:ems="10"
+        android:hint="escribir número"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button_suma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#00AFF4"
+        android:backgroundTintMode="src_in"
+        android:foregroundTint="#F3F1F1"
+        android:text="SUMA" />
+
+    <Button
+        android:id="@+id/button_resta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#04FF0E"
+        android:text="RESTA" />
+
+    <Button
+        android:id="@+id/button_division"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#DA00FF"
+        android:text="DIVISIÓN" />
+
+    <Button
+        android:id="@+id/button_multiplicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#FFC107"
+        android:text="MULTIPLICACIÓN" />
+</LinearLayout>
